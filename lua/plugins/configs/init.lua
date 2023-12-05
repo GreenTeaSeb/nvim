@@ -1,0 +1,8 @@
+require('plugins/configs/bufferline')
+require('plugins/configs/keymaps')
+require('plugins/configs/lsp')
+require('plugins/configs/misc')
+require('plugins/configs/neovide')
+require('plugins/configs/statusline')
+require('plugins/configs/tree')
+require('plugins/configs/treesitter')
