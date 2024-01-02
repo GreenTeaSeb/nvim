@@ -23,8 +23,12 @@ require("lazy").setup({
 
 			-- Autocompletion
 			{ 'hrsh7th/cmp-nvim-lsp' },
-			{ 'hrsh7th/nvim-cmp' },
-			{ 'L3MON4D3/LuaSnip' },
+			{ 'hrsh7th/nvim-cmp',
+			    dependencies = {'saadparwaiz1/cmp_luasnip'}
+			},
+			{ 'L3MON4D3/LuaSnip',
+			    dependencies = { "rafamadriz/friendly-snippets" },
+			},
 		},
 	},
 	{
@@ -36,7 +40,6 @@ require("lazy").setup({
 	{
 		'onsails/lspkind.nvim'
 	},
-
 	-- SYNYAX ENCHANEMENT
 	{
 		'nvim-treesitter/nvim-treesitter',
